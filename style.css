@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#principal {
+    min-height: 900px;
+    background-image: url("./madonna-background.png"); 
+    background-color: hotpink;
+    background-repeat: no-repeat;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+button {
+    background-image: url("./madonna-rosa.png"); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 0;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-image: url("./madonna-branco.png"); 
+    background-position: center;
+    background-color: #ff3b8a;
+    transition: 1s;
+    border: none; 
+    padding: 0; 
+    cursor: pointer; 
+}
+
+a {
+    text-decoration: none;
+    color: #ff3b8a;
+}
